@@ -1,0 +1,57 @@
+.container,
+input {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 0%;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+input {
+  border-radius: 1rem;
+  padding: 5px;
+  padding-left: 15px;
+  border: 1px solid lightgrey;
+}
+
+form > input:last-child {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0%;
+  margin-top: 5%;
+}
+
+.form-group {
+  padding-top: 3%;
+}
+
+.container {
+  margin-top: 3%;
+}
+
+#asbutton {
+  background-color: #4888f0;
+  color: white;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding-bottom: 5%;
+}
+
+a img {
+  width: 50%;
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+img {
+  width: 100%;
+}
